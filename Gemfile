@@ -40,6 +40,8 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+gem 'rails_12factor', group: :production
+
 group :development do
   gem 'annotate', '2.5.0'
 end

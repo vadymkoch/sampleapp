@@ -25,8 +25,8 @@ production:
 #  timeout: 5000
   adapter: postgresql
   encoding: unicode
-  database: sampleapp_production
+  database: myapp_production
   pool: 5
-  username: sampleapp
+  username: myapp
   password:
 
