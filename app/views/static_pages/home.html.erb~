@@ -5,6 +5,11 @@
         <%= render 'shared/user_info' %>
       </section>
       <section>
+        <%= render 'shared/stats' %>
+      </section>
+
+
+      <section>
         <%= render 'shared/micropost_form' %>
       </section>
     </aside>
@@ -20,16 +25,15 @@
     <h1>Welcome to the Sample App</h1>
 
     <h2>
-      This is the home page for the
-      <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
+      This is the home page for the sample application of Vadym Kochergin.
     </h2>
 
     <%= link_to "Sign up now!", signup_path,
                                 class: "btn btn-large btn-primary" %>
   </div>
 
-  <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+  <%= link_to image_tag("rails.jpeg", alt: "Rails", :width => 80, :title => "Click here to send a message to Vadym"),
+	  'mailto:v.kochergin@waysgo.com' %>
 <% end %>
 
 
