@@ -1,0 +1,8 @@
+<% provide(:title, 'About Us') %>
+<h1>About Us</h1>
+<p>
+  I am Vadym and I work for <a href="http://test.waysgo.com">WaysGo</a>.
+  We make a community guide to places. 
+
+</p>
+
